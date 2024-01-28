@@ -1,0 +1,546 @@
+body{
+    background: linear-gradient(180deg, #252E4F 15%, #080E22 30%);
+    border: 0;
+    margin: 0;
+    width: 100%;
+    height: auto;
+
+}
+@font-face {
+    font-family:cnfont1;
+    src: url("鸿雷拙书简体.otf");
+    font-weight: bold;
+}
+@font-face {
+    font-family:cnfont2;
+    src: url("鸿雷行书简体.otf");
+    font-weight: bold;
+}
+p{
+    border: 0;
+    margin: 0;
+    color: #FFF;
+    font-family: HongLeiZhuoShu, serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    border: 0;
+}
+h3{
+    color: #FFF;
+    font-family: hongleixingshu, serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 0;
+}
+h2{
+    color: #FFF;
+    font-family: MOONBLOSSOM, serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height:0;
+    text-align: center;
+}
+h4{
+    color: #FFF;
+    text-align: center;
+    font-family: HongLeiZhuoShu, serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 0;
+}
+h5{
+    color: #FFF;
+    text-align: center;
+    font-family: MOONBLOSSOM, serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 0;
+}
+h6{
+    color: #FFF;
+    font-family: HongLeiZhuoShu;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#txt1{
+    color: #FFF;
+    font-family: cnfont1, serif;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height:0;
+}
+#txt2{
+    color: #FFF;
+    font-family: Josefin Sans, serif;
+    font-size: 250px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#login1{
+    margin-top:20vh;
+    margin-left: auto;
+    margin-right: auto;
+    width: 491px;
+    height: 618px;
+    flex-shrink: 0;
+    text-align: center;
+    position: relative;
+    border: 0;
+    animation:fadeIn;
+    animation-duration:2s;
+}
+
+#login2{
+    margin-top:45vh;
+    width: 1043px;
+    height: 262px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    flex-shrink: 0;
+    opacity: 0;
+    transition: 3s;
+    transition-delay: 0.5s;
+}
+
+#login3{
+    width: 680px;
+    height: 272px;
+    flex-shrink: 0;
+    margin-top:45vh;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0;
+    transition: 3s;
+    transition-delay: 0.5s;
+}
+
+#tp1{
+    width: 832px;
+    height: 84px;
+    flex-shrink: 0;
+    margin-top: 90px;
+    margin-left: 210px;
+    margin-bottom: 0;
+    border: 0;
+}
+
+#tp2{
+    width: 832px;
+    height: 84px;
+    flex-shrink: 0;
+    margin-top: 90px;
+    margin-left: 210px;
+    margin-bottom: 0;
+    border: 0;
+}
+
+#homepage{
+    width: 134px;
+    height: 950px;
+    margin-left: 0;
+    margin-top:50vh;
+    margin-bottom:85vh;
+    flex-shrink: 0;
+    display:inline-block;
+    top:0;
+    overflow: hidden;
+    z-index:10;
+    position:sticky;
+}
+
+#line1{
+    width: 2px;
+    height: 100%;
+    background: #FFF;
+    display: inline-block;
+    position: absolute;
+    margin-left: 131px;
+    margin-top:0;
+    margin-bottom: 0;
+}
+#txp1{
+    width: 108px;
+    height: 171px;
+    margin-left: auto;
+    margin-right:auto;
+    flex-shrink: 0;
+    margin-top:3vh;
+}
+#txp2{
+    width:88px;
+    height:133px;
+    margin-left: auto;
+    margin-right:auto;
+    line-height:normal;
+    text-align: left;
+    position:relative;
+    display:block;
+}
+#txp3{
+    width: 108px;
+    height: 38px;
+    flex-shrink: 0;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 0;
+    text-align: center;
+    line-height: 0;
+}
+#svg{
+    margin-top: 6vh;
+    width: 94px;
+    height: 91px;
+    margin-left: auto;
+    margin-right:auto;
+    display: block;
+}
+#button{
+    width: 67px;
+    height: 65px;
+    flex-shrink: 0;
+    padding-bottom:0;
+    margin: 50vh auto 1vh;
+    display: block;
+    background: #FFF;
+}
+
+.CD1{
+    width: 1166px;
+    height: 775px;
+    margin-top:45%;
+    display: inline-block;
+    z-index: 5;
+    position: relative;
+    flex-shrink:0;
+}
+
+#video1{
+    width:100%;
+    height:1600px;
+    overflow: hidden;
+    margin-top:-140vh;
+    margin-left: 0;
+    opacity: 0.3;
+    z-index:-10;
+    flex-shrink:0;
+    display: none;
+    position:absolute;
+    transition: 1s ease-in-out;
+
+}
+#cd1_v{
+    width:130%;
+    height:1600px;
+    display:block;
+}
+.cdp1{
+    width: 478px;
+    height: 478px;
+    margin-left:8vw;
+    z-index: 5;
+    display: inline-block;
+    flex-shrink: 0;
+}
+
+
+.it1{
+    margin:180.5px ;
+    z-index:1;
+    position: absolute;
+    display: block;
+    fill:#838690;
+    fill-opacity:1;
+}
+.it1-highlight {
+    fill:#FFFFFF;
+    opacity:1;
+}
+
+svg:hover{
+    fill:#FFFFFF;
+    opacity:1;
+}
+
+
+.it1_s{
+    margin:181px ;
+    z-index:3;
+    position: absolute;
+    display: none;
+    fill:#838690;
+}
+
+.it1_s:hover{
+    fill: #FFFFFF;
+    display: block;
+}
+.it1_s-highlight {
+    fill:#FFFFFF;
+    opacity:1;
+    margin:180px ;
+    z-index:5;
+    position: absolute;
+    display: block;
+}
+
+
+.it4{
+    width: 144px;
+    height: 144px;
+    margin: 167px 167px 168px 168px;
+    z-index:-3;
+    display: block;
+    position: absolute;
+    flex-shrink: 0;
+}
+
+.it2_1{
+    width: 478px;
+    height: 478px;
+    margin: auto;
+    flex-shrink: 0;
+    border-radius: 478px;
+    display: flex;
+    background-size:150%;
+    background-image: url("alaska.jpg");
+    background-repeat: no-repeat;
+    z-index: -4;
+    position: absolute;
+    animation-name:rota2;
+    animation-duration:7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-play-state: paused;
+}
+.it3{
+    width: 248.523px;
+    height: 149.959px;
+    flex-shrink: 0;
+    top: 40px;
+    left: 430px;
+    z-index: -1;
+    position: absolute;
+}
+
+.cdp2{
+    width: 375px;
+    height: 123px;
+    margin-left:12vw;
+    flex-shrink: 0;
+}
+
+
+
+.txtp1{
+    width: 585px;
+    height: 117px;
+    flex-shrink:0;
+    border: 0;
+    margin-left:50vw;
+    margin-right: 4vw;
+    top:120px;
+    z-index:-2;
+    display: block;
+    position: absolute;
+}
+.txt3{
+    font-size: 24px;
+    line-height: normal;
+    width: 568px;
+    height: 121px;
+    flex-shrink: 0;
+    border: 0;
+    margin-left:50vw;
+    margin-right: 4vw;
+    top:350px;
+    z-index:-2;
+    display: flex;
+    position: absolute;
+}
+
+
+.CD2{
+    width: 1166px;
+    height: 775px;
+    margin-top:30%;
+    margin-left:134px;
+    display: inline-block;
+    z-index:5;
+    position: relative;
+    flex-shrink:0;
+
+}
+
+
+#video2{
+    width:100%;
+    height:1600px;
+    overflow: hidden;
+    margin-top:0;
+    margin-left: 0;
+    opacity: 0.3;
+    z-index:-10;
+    flex-shrink:0;
+    display: none;
+    position:absolute;
+    transition: 1s ease-in-out;
+
+}
+#cd2_v{
+    width:130%;
+    height:1600px;
+    display:block;
+}
+
+#it2_2{
+    width: 478px;
+    height: 478px;
+    margin: auto;
+    flex-shrink: 0;
+    border-radius: 478px;
+    display:block;
+    background-size:100%;
+    background-image: url("Ellipse_2.png");
+    background-repeat: no-repeat;
+    z-index: -4;
+    position: absolute;
+    animation-name:rota2;
+    animation-duration:7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-play-state: paused;
+}
+
+
+
+
+
+
+
+
+
+.CD3{
+    width: 1166px;
+    height: 775px;
+    margin-top:30%;
+    margin-left:134px;
+    display:inline-block;
+    z-index:5;
+    position: relative;
+    flex-shrink:0;
+
+}
+
+#video3{
+    width:100%;
+    height:1600px;
+    overflow: hidden;
+    margin-top:0;
+    margin-left: 0;
+    opacity: 0.3;
+    z-index:-10;
+    flex-shrink:0;
+    display:none;
+    position:absolute;
+    transition: 1s ease-in-out;
+
+}
+#cd3_v{
+    width:130%;
+    height:1600px;
+    display:block;
+}
+
+
+
+#it2_3{
+    width: 478px;
+    height: 478px;
+    margin: auto;
+    flex-shrink: 0;
+    border-radius: 478px;
+    display:block;
+    background-size:100%;
+    background-image: url("the_last_page.gif");
+    background-repeat: no-repeat;
+    z-index: -4;
+    position: absolute;
+    animation-name:rota2;
+    animation-duration:7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-play-state: paused;
+}
+
+
+
+
+
+
+
+@keyframes rota2 {
+    from{transform: rotate(0deg);}
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+
+footer{
+    margin-top: 50vh;
+    margin-bottom:20vh;
+    display: block;
+}
+
+
+.txt4{
+    font-size: 96px;
+    line-height:0;
+}
+
+
+
+#txp4{
+    width: 746px;
+    height: 206px;
+    margin-right:346px;
+    margin-left:348px;
+    display:block;
+    position: relative;
+}
+#txp5{
+    right: 150px;
+    position:relative;
+}
+
+#txp6{
+    left: 279px;
+    position:relative;
+}
+
+#txp7{
+    width: 927px;
+    height: 115px;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+    line-height: normal;
+}
